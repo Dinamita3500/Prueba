@@ -105,6 +105,8 @@ def preprocessing(img):
     cmaxc=np.int32(np.ones(20))
     a=np.array([minr, minc, maxr, maxc])
 
+    print('NUEVO')
+
     label_img = label(img7)
 
     j=0
